@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FMTG AI Chat Bot Local Mongo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <h1>FMTG AI Chat Bot Local</h1>
+      <form action="">
+        <input type="text" name="message" id="message" />
+        <button type="submit">Send</button>
+      </form>
+      <div id="chat-log" class="chat-log"></div>
+    </main>
+    <script>
+      let messages = [];
+      const chatLog = document.getElementById("chat-log");
+      const message = document.getElementById("message");
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const messageText = message.value;
+        const newMessage = { role: "user", content: `${messageText}` };
+        messages.push(newMessage);
+        message.value = "";
+        const messageElement = document.createElement("div");
+        messageElement.classList.add("message");
+        messageElement.classList.add("message--sent");
+        messageElement.innerHTML = `
+          <div class="message__text">${messageText}</div>
+        `;
+        chatLog.appendChild(messageElement);
+        chatLog.scrollTop = chatLog.scrollHeight;
+        fetch("http://localhost:3000/api/new_query", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            //messages,
+            id: "507f1f77bcf86cd799439011",
+            message: messageText,
+          }),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            let newAssistantMessage = {
+              role: "assistant",
+              content: `${data.completion}`,
+            };
+            messages.push(newAssistantMessage);
+            const messageElement = document.createElement("div");
+            messageElement.classList.add("message");
+            messageElement.classList.add("message--received");
+            messageElement.innerHTML = `
+          <div class="message__text">${data.completion}</div>
+        `;
+            chatLog.appendChild(messageElement);
+            chatLog.scrollTop = chatLog.scrollHeight;
+          });
+      });
+    </script>
+<style>
+/* Estilos básicos para los mensajes */
+.message {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  max-width: 70%; /* Limita el ancho del mensaje */
+  word-wrap: break-word; /* Rompe las palabras largas si son muy largas */
+}
+
+/* Estilos para los mensajes enviados (derecha) */
+.message--sent {
+  background-color: #007bff; /* Cambia el color de fondo para los mensajes enviados */
+  color: #fff; /* Cambia el color del texto para los mensajes enviados */
+  align-self: flex-end; /* Coloca los mensajes enviados a la derecha */
+}
+
+/* Estilos para los mensajes recibidos (izquierda) */
+.message--received {
+  background-color: #eee; /* Cambia el color de fondo para los mensajes recibidos */
+  color: #333; /* Cambia el color del texto para los mensajes recibidos */
+  align-self: flex-start; /* Coloca los mensajes recibidos a la izquierda */
+}
+
+/* Estilos para el contenedor del chat */
+.chat-log {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea los mensajes a la izquierda por defecto */
+  padding: 16px;
+  overflow-y: auto; /* Agrega desplazamiento vertical si hay demasiados mensajes */
+  max-height: 90vh; /* Limita la altura del registro de chat para evitar el desbordamiento */
+  max-width: 36em;
+}
+style>
+  </body>
+</html>

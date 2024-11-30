@@ -1,0 +1,137 @@
+Our website in Falkensteiner is https://www.falkensteiner.com. It is the official website of Falkensteiner Hotels & Residences, a European hotel chain with over 30 hotels and resorts in Austria, Croatia, Italy, South Tyrol, and Montenegro. The website is available in English, German, Italian, and Croatian.
+
+Our standard check-in time is 3:00 PM. If you need to check in earlier, please let us know contacting at +435099118000 or online https://www.falkensteiner.com and we will do our best to accommodate your request
+
+Our standard check-out time is 11:00 AM. If you need a later check-out time, please contact our front desk at +435099118000 or online https://www.falkensteiner.com to make arrangements
+
+In order to modify your reservation, please call our reservation office at +435099118000 or call the hotel directly. Either way we will do our best to accommodate your needs
+
+We do offer room service in all properties. Please contact the reception to be connected to the room service department
+
+All our properties do have a fitness center.
+
+
+
+"Most properties have indoor and outdoor pool. Which property are you interested about?"
+
+{pregunta: "Is breakfast included?", respuesta: "Breakfast is always included"}
+
+"The shuttle service depends on season and location. Woud you like to chat with a service agent for more details?"
+
+{question: "Is there a spa on the property?", answer: "We have Wellness Centers in every property. If you wish to know more about a specific hotel, please provide me the name or the location"}
+
+Dogs, cats, animals, pets, elefantes
+We allow pets in our hotel for an additional fee. Please contact us at +435099118000 to arrange for pet-friendly accommodations
+
+Most properties have dedicated parking spaces. Indoor parking is charged 24 Euro per day
+
+Our loyalty program is called Spirit Club. Link https://www.falkensteiner.com/en/spirit-club-overview
+
+"Some properties do have a business center. Would you like to chat with a service agent for more information?"
+
+{question:"Are there meeting rooms available?", answer: "Some properties do have meeting rooms. Would you like to chat with a service agent for more information?"}
+
+{question: "Is there a concierge service?", answer: "Concierge service is available in each hotel part of the Premium Collection. Would you like to see a list?"}
+
+{question: "What is the closest airport?", answer: "That of course depends on the location Which of our hotels are you considering to visit?"}
+
+{question: "What types of rooms are available?", answer: "For the types of rooms available each Falkensteiner hotel has got its own peculiarities. Which one would you like to know about?"}
+
+{question: "Is there a restaurant on the property?", answer: "All our properties have at least one restaurant. Which hotel would you like to know more about?"}
+
+Our receiption will certanly do whatever possible to accommodate your need (late check-out). Please inform our reception as soon as possible
+
+"There is a charge for extra guests in a room. Would you like to chat with a service agent to know more?"
+
+We accept debit and credit cards for online payments. In case of pre-payment we can also accept bank transfers. At check-out we accept debit and credit cards and cash
+
+There is not a dress code for the restaurant. Out motto is Welcome Home!
+
+"Some properties are only for people above 14 years old. Would you like to know which ones?"
+
+Smoking is not allowed anywhere inside our hotels. Smoking areas are placed outside in marked areas
+
+There is a limit to the number of people allowed in a room, and it depends on the room. During the booking process it will always be clear how many people are allowed in the same room
+
+We love to give the top possible comfort. Our hotels are well know for being quite and peaceful
+
+Of course you can request a room with a view, and our staff will do their best to make you happy
+
+WiFi is always free
+
+"Our rooms do have all the comforts and amenities, and housekeeping will do their best to help you in case your forgot something at home"
+
+Before checkin you can book a spa treatment either on our website https://www.falkensteiner.com or by calling our reservation center at +435099118000. Once at the hotel, you can call receiption anytime or pay a visit to the Wellness Center yourself
+
+If early check-in is possible, you won't be charged
+
+"We love to take the highest care of your personal belonging, and our staff is trained to manage lost and found at their best. Please call the hotel directly in case you lost something. Which hotel would you like to contact?"
+
+{question: "Are there any discounts available for extended stays?" answer: "Our staff will do anything to accommodate your request and will find the best possible rates for discounts available for extended stays. Would you like to chat with a service agent to know more?"}
+
+{question: "How can I book a private event at the property?", answer: "For booking a private event at the property please call the property directly, our staff will be happy to assist you. Would you like to contact any property in particular?"}
+
+Smoking cannabis is not allowed anywhere in the properties
+
+"Unless you are visiting one of our hotels which do not accept guests below 14 years old, there is no mimum age. Would you like to know which ones?""
+
+{question: "What is the policy on visitors in the room?", answer: "You can welcome your visitors as you please. If possilble, please make sure receiption is aware your are expect visitors"}
+
+Of course you can request a wake-up call. Reception will set it up in the system in a split second
+
+There is not a charge for room delivery service
+
+Our rooms have mini bars already, putting an additional refrigerator in the room won’t be possible. However, if you have perishable items with you which won't fit in the mini-bar, our personall will help you gladly
+
+{question: "How can I request a taxi or transportation?" answer: "Once at the hotel, our receiption will be happy to assist and arrange either a public taxi or a private transfer where possible"}
+
+{question: "Is there a children's play area or club?", answer: "Our Funimation hotels have state of the art kids' entertainment. Would you like to see which ones?"}
+
+Of course you can request an extra bed or crib in your room. Feel free to specify this request during the booking process, or anytime before check-in
+
+Please speak to receiption or concierge directly and they will be happy to assist to booking a private airport transportation service
+
+We haver a policy for lost and damage property. Shoud you damage anything at the hotel, we would appreciate you reporting the inconvenience to the reception at the earliest occasion
+
+All our properties have elevators
+
+Our WiFi network is designed to manage all required connections, and you will be able to enjoy your complentary Internet access without hassle
+
+Our WiFi network is designed to manage all devices you need, and you will be able to enjoy your complentary Internet access without hassle
+
+To request a room service you can dial the room service direct number and place your order there
+
+{question: "Is there a charge for late check-in?", answer: "There is not a charge in late check-in and if you have already checked-in on line, your room is already yours. If you have not, your room will be reserved to you for XXX hours."}
+
+"Our Wellness Centers and Gyms (Pool and fitness centers) are opened to all guests. However, some specific services or threatments in the Wellness center are subject to additional payment. Would you like to see the Wellness Menu for any specific property?"
+
+About the policy on outside food and drinks in the room you can bring along whatever you please. Remember: it's Welcome Home!
+
+There is a charge for using the hotel's phone. Our reception will be happy to inform your about the costs which can change depending on the country.
+
+All our rooms are non-smoking, therefore you will get one without even asking
+
+{question: "How can I cancel my reservation?", answer: "Please call our reservation center at +435099118000, the policy may change depending on offers and promotions. Would you like to know more about our standard cancellation policy?"}
+
+"Yes there is a charge for using the hotel's laundry service, and depends on the hotel. Would you like to know more? For which hotel?"
+
+You can request a bathtub, and our receiption will do their best to give you one.
+
+Our properties have a safe in each room, and there is no fee for using it
+
+"Falkensteiner Hotels & Residences takes no responsibility for any lost or stolen valuable items stored in the room"
+
+{question: "Do you have any special room packages or discounts available?", answer: "We offer a range of special packages and discounts throughout the year. Please visit our website https://www.falkensteiner.com or call our reservation number at +435099118000 for more information"}
+
+Our hotel offers a range of amenities including a swimming pool, fitness center, spa, and restaurant. We also provide complimentary Wi-Fi and parking for our guests
+
+{question: "Can I check in late at night?", answer: "Our front desk is staffed 24 hours a day so you can check in at any time"}
+
+{question: "Do your rooms have balconies?", answer: "Some of our rooms have balconies, while others do not. Please let us know your preference when you make your reservation."}
+
+{question: "What are the restaurant's hours of operation?", answer: "Our restaurant opening hours depend on the location. In which of our hotels are you interested?"}
+
+We offer a range of vegetarian and vegan options on our menu. Please let our server know about any dietary restrictions you have, either at booking time or once at the hotel
+
+We can accommodate special meal requests or create a custom menu for your event. Please contact our reservation center at +435099118000'>
+
